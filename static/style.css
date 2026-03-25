@@ -1,0 +1,106 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #2d2d2d;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Post List */
+article {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+}
+
+article h2 a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    color: #0066cc;
+}
+
+article p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+article hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 1rem 0;
+}
+
+/* Post Detail */
+article h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #2d2d2d;
+}
+
+article div {
+    margin: 1.5rem 0;
+    white-space: pre-wrap;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
